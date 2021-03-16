@@ -1,0 +1,40 @@
+pkgbase = python-doc8
+	pkgdesc = Style checker for Sphinx (or other) RST documentation
+	pkgver = 0.8.1
+	pkgrel = 1
+	url = https://github.com/pycqa/doc8
+	arch = any
+	license = Apache
+	checkdepends = python-mock
+	checkdepends = python-nose
+	checkdepends = python-pytest
+	checkdepends = python-testtools
+	checkdepends = python2-mock
+	checkdepends = python2-nose
+	checkdepends = python2-pytest
+	checkdepends = python2-testtools
+	makedepends = python
+	makedepends = python-chardet
+	makedepends = python-docutils
+	makedepends = python-restructuredtext-lint
+	makedepends = python-six
+	makedepends = python-stevedore
+	makedepends = python-pygments
+	makedepends = python-setuptools
+	makedepends = python2
+	makedepends = python2-chardet
+	makedepends = python2-docutils
+	makedepends = python2-restructuredtext-lint
+	makedepends = python2-six
+	makedepends = python2-stevedore
+	makedepends = python2-pygments
+	makedepends = python2-setuptools
+	source = https://pypi.io/packages/source/d/doc8/doc8-0.8.1.tar.gz
+	md5sums = 5d6605ad9f989f58b492a6bdaf2b9b4b
+	sha256sums = 4d1df12598807cf08ffa9a1d5ef42d229ee0de42519da01b768ff27211082c12
+	sha512sums = 855a00e24daba0c1a7caa4e888411c356570d2f30c7966bb2e566260edff13bc4c35124fd8d4129231bc7a3bec2ed959d23fb52961a5d8f6d1c67cff22bb35de
+
+pkgname = python-doc8
+
+pkgname = python2-doc8
+
