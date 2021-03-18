@@ -1,0 +1,30 @@
+pkgbase = python-os-testr
+	pkgdesc = A testr wrapper to provide functionality for OpenStack projects
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = https://docs.openstack.org/os-testr/latest/
+	arch = any
+	license = Apache
+	checkdepends = python-hacking
+	checkdepends = python-coverage
+	checkdepends = python-oslotest
+	checkdepends = python-testscenarios
+	checkdepends = python-ddt
+	checkdepends = python-six
+	makedepends = python-openstackdocstheme
+	makedepends = python-reno
+	makedepends = python-sphinx
+	makedepends = python-setuptools
+	depends = python2
+	depends = python
+	depends = python-pbr
+	depends = python-stestr
+	depends = python-subunit
+	depends = python-testtools
+	source = https://pypi.io/packages/source/o/os-testr/os-testr-2.0.0.tar.gz
+	md5sums = ffc397c5ffa36e6b143cbd59b813cf40
+	sha256sums = da94f9d5945ba45db57f8f9afdaefc62bc971eed5ce15e059d76a2ff495632fd
+	sha512sums = 0ee6a144a75f7742aaf6859161f7918fb908a6783180a022a8698ce4dffeac50bf453c208b47ec784687d88a55739fff822483f404f246f222c24245ed6845ea
+
+pkgname = python-os-testr
+
