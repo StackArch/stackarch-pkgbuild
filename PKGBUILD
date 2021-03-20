@@ -41,6 +41,8 @@ md5sums=('4d47857de63c409bddc5a55a419cd430')
 sha256sums=('039c32c088f5f369882db6933b78955a16b6929a7d99b757df614e0b6a27ed2a')
 sha512sums=('5ab164e92b1d2820b5f84b59748e3fdf0733c587e6c4a9a17cb34cb95ab7a3900430790b50ce40b479a9f39e599a0969e3e8d1c5255ed6c595a287019a736663')
 
+export PBR_VERSION=$pkgver
+
 build(){
 	cd $_pyname-$pkgver
 	python setup.py build
