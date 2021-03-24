@@ -1,0 +1,18 @@
+pkgbase = python-flake8-logging-format
+	pkgdesc = Flake8 extension to validate (lack of) logging format strings
+	pkgver = 0.6.0
+	pkgrel = 1
+	url = https://github.com/globality-corp/flake8-logging-format
+	arch = any
+	license = Apache
+	makedepends = python
+	makedepends = python-setuptools
+	depends = flake8
+	depends = python
+	source = https://pypi.io/packages/source/f/flake8-logging-format/flake8-logging-format-0.6.0.tar.gz
+	md5sums = 7e082dd93304443d4d7db7a6489017ba
+	sha256sums = ca5f2b7fc31c3474a0aa77d227e022890f641a025f0ba664418797d979a779f8
+	sha512sums = d93c1acbfde9945933228d3849a950a8a28b213632698e257c55c0d76d988f7de0106a9e7c92bb1af7c66444aab4fad22d4dad8e56537be076505eff283b9507
+
+pkgname = python-flake8-logging-format
+
