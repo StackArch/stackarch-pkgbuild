@@ -43,7 +43,7 @@ build(){
 }
 
 check(){
-	cd "$srcdir"/$_pyname-$pkgver
+	cd $_pyname-$pkgver
 	mkdir root
 	python setup.py install --root root --optimize=1
 	PATH="${PWD}/root/usr/bin:${PATH}" PYTHONPATH="${PWD}" stestr run
