@@ -57,10 +57,10 @@ build(){
 }
 
 check(){
-	pushd "$srcdir"/$_pyname-$pkgver
+	pushd $_pyname-$pkgver
 	python -m pytest
 	popd
-	pushd "$srcdir"/$_pyname-$pkgver-py2
+	pushd $_pyname-$pkgver-py2
 	python2 -m pytest
 	popd
 }
