@@ -1,7 +1,7 @@
 pkgbase = python-simplegeneric
 	pkgdesc = Simple generic functions (similar to Python's own len(), pickle.dump(), etc.)
 	pkgver = 0.8.1
-	pkgrel = 1
+	pkgrel = 2
 	url = http://cheeseshop.python.org/pypi/simplegeneric
 	arch = any
 	license = ZPL
@@ -19,4 +19,3 @@ pkgbase = python-simplegeneric
 pkgname = python-simplegeneric
 
 pkgname = python2-simplegeneric
-

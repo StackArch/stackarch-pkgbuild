@@ -4,7 +4,7 @@ _pyname=simplegeneric
 pkgbase=python-$_pyname
 pkgname=(python{,2}-$_pyname)
 pkgver=0.8.1
-pkgrel=1
+pkgrel=2
 pkgdesc="Simple generic functions (similar to Python's own len(), pickle.dump(), etc.)"
 arch=(any)
 url="http://cheeseshop.python.org/pypi/simplegeneric"
@@ -46,7 +46,7 @@ _package_python(){
 _package_python2(){
 	depends=(python2)
 	cd $_pyname-$pkgver-py2
-	python setup.py install --root "$pkgdir" --optimize=1
+	python2 setup.py install --root "$pkgdir" --optimize=1
 }
 
 eval "package_python-${_pyname}(){ _package_python; }"
