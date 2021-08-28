@@ -4,7 +4,7 @@ _pyname=statsd
 pkgbase=python-$_pyname
 pkgname=(python{,2}-$_pyname)
 pkgver=3.3.0
-pkgrel=1
+pkgrel=2
 pkgdesc="A simple statsd client."
 arch=(any)
 url="https://github.com/jsocol/pystatsd"
@@ -58,7 +58,7 @@ _package_python(){
 _package_python2(){
 	depends=(python2)
 	cd $_pyname-$pkgver-py2
-	python setup.py install --root "$pkgdir" --optimize=1
+	python2 setup.py install --root "$pkgdir" --optimize=1
 	install -Dm644 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname"
 }
 
