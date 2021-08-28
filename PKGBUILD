@@ -5,7 +5,7 @@ _pycname=pyScss
 pkgbase=python-$_pyname
 pkgname=(python{,2}-$_pyname)
 pkgver=1.3.7
-pkgrel=1
+pkgrel=2
 pkgdesc="pyScss, a Scss compiler for Python"
 arch=(x86_64 i686 arm armv6h armv7h aarch64)
 url="http://github.com/Kronuz/pyScss"
@@ -58,6 +58,9 @@ _package_python2(){
 	cd $_pycname-$pkgver-py2
 	python2 setup.py install --root "$pkgdir" --optimize=1
 	install -Dm644 LICENSE "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
+	for i in "$pkgdir"/usr/bin/*
+	do mv -v ${i}{,-2}
+	done
 }
 
 eval "package_python-${_pyname}(){ _package_python; }"
