@@ -1,6 +1,6 @@
 pkgbase = python-codecov
 	pkgdesc = Hosted coverage reports for GitHub, Bitbucket and Gitlab
-	pkgver = 2.1.11
+	pkgver = 2.1.12
 	pkgrel = 1
 	url = https://github.com/codecov/codecov-python
 	arch = any
@@ -11,12 +11,11 @@ pkgbase = python-codecov
 	makedepends = python2
 	makedepends = python2-requests
 	makedepends = python2-coverage
-	source = https://pypi.io/packages/source/c/codecov/codecov-2.1.11.tar.gz
-	md5sums = 8ab9cc6162ee6833b157aef483a1a323
-	sha256sums = 6cde272454009d27355f9434f4e49f238c0273b216beda8472a65dc4957f473b
-	sha512sums = bfc1bb3f85baca8de5b3058434242709c6bc4e5e5579490b7b88e308467767718e6e11a0464ea682bbbc4ff279c47b5bafb55b537660c0eb3df48bd5ac4e3d6e
+	source = https://pypi.io/packages/source/c/codecov/codecov-2.1.12.tar.gz
+	md5sums = 990a20da8998c7ca8ad204512c1e4e92
+	sha256sums = a0da46bb5025426da895af90938def8ee12d37fcbcbbbc15b6dc64cf7ebc51c1
+	sha512sums = 9d364844dc864996e7d65d6210c7bca345a67d5aa61bcdd351591f0aeadcd2662101e59449e8a86b8341d9fc840889cb635b2c41c6287001b598ee1647c86b02
 
 pkgname = python-codecov
 
 pkgname = python2-codecov
-
