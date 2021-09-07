@@ -1,0 +1,15 @@
+pkgbase = actdiag
+	pkgdesc = actdiag generates activity-diagram image from text
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = http://blockdiag.com/en/actdiag
+	arch = any
+	license = Apache
+	makedepends = python-distribute
+	depends = python
+	depends = blockdiag
+	source = https://pypi.io/packages/source/a/actdiag/actdiag-2.0.0.tar.gz
+	sha512sums = e955b9b919e137f10ff128d5d8817b2da660b121937cab3386a866a0bff08218b6e777e302a9130616228af6c357c463ceeb12cb95b8734928001d8ad6a90250
+
+pkgname = actdiag
+	optdepends = python-reportlab
