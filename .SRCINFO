@@ -1,0 +1,18 @@
+pkgbase = python-sphinxcontrib-apidoc
+	pkgdesc = A Sphinx extension for BibTeX style citations
+	pkgver = 0.3.0
+	pkgrel = 1
+	url = https://github.com/sphinx-contrib/apidoc
+	arch = any
+	license = BSD
+	checkdepends = python-nose
+	checkdepends = python-sphinx-testing
+	makedepends = python-setuptools
+	depends = python-pbr
+	depends = python-sphinx
+	source = https://pypi.io/packages/source/s/sphinxcontrib-apidoc/sphinxcontrib-apidoc-0.3.0.tar.gz
+	md5sums = baf2ad8a88918b04b54d0655aa273a82
+	sha256sums = 729bf592cf7b7dd57c4c05794f732dc026127275d785c2a5494521fdde773fb9
+	sha512sums = 043f9b36eaff7b3f6d23c834dd3947e2b029c66010b3862f1658f03e0fb6c4aac3304f49465dd515a30107a685dc704a0e319675c9d7b27897445a2c315d07a1
+
+pkgname = python-sphinxcontrib-apidoc
