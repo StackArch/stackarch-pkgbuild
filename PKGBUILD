@@ -2,7 +2,7 @@
 
 _pyname=osc-placement
 pkgname=python-$_pyname
-pkgver=3.1.0
+pkgver=3.1.1
 pkgrel=1
 pkgdesc="OpenStackClient plugin for the Placement service"
 arch=(any)
@@ -35,9 +35,9 @@ checkdepends=(
 	python-wsgi-intercept
 )
 source=(https://pypi.io/packages/source/${_pyname::1}/$_pyname/$_pyname-$pkgver.tar.gz)
-md5sums=('08fe683243cb98f234a0281150b9bd08')
-sha256sums=('351058aaad44ee80de907d1afb1e62421874e0bee6de028f44896ec3eb207e08')
-sha512sums=('0560e3a5642a76acc430688bce817dd9ac247127769657091dc6d70746f14af68d34f2cd196967550d64e80e69db1e402ee9d365c8faee4121fec0b5aeb84040')
+md5sums=('8ef72c7ff570bb4d9d70376787467b76')
+sha256sums=('8da2845b7ae21a00629d90db7429563198ed213728d5115c5dbc4a5ef7cb9e75')
+sha512sums=('0c79ad28a5976f386bc939f06f36254649dda1fc14ecff8f48513aafbd02a23779946afd81aa091aab4e61ac45997c4e6cc270a3edcc82c6e83ff6b41e8efb25')
 
 export PBR_VERSION=$pkgver
 
