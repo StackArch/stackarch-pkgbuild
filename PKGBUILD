@@ -2,7 +2,7 @@
 
 _pyname=futurist
 pkgname=python-$_pyname
-pkgver=2.3.0
+pkgver=2.4.0
 pkgrel=1
 pkgdesc="Code from the future, delivered to you in the now."
 arch=(any)
@@ -13,6 +13,7 @@ depends=(
 	python-six
 	python-monotonic
 	python-prettytable
+	python-pre-commit
 	python-wheel
 )
 checkdepends=(
@@ -42,6 +43,6 @@ package(){
 	python setup.py install --root="$pkgdir" --optimize=1
 	install -Dm644 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname"
 }
-md5sums=('4d642f5825a516d676356094179c6d27')
-sha256sums=('174ea146adf303d7e5d7d6d34e3a01f4abf0382b03a6f9309bac2e2d54ffbed6')
-sha512sums=('fa12314ce1bc12ccb7d8dd0e99a76a63dbd6a1c6560ca976eacb782f2c28a6003aee820d8ea745b59d35280b047e67563b046c761737d76fefb5928fdfba20e9')
+md5sums=('a104e9a837f83dc5c52c33baddffc47c')
+sha256sums=('1c7452e2e8cc542c40c066c7d2be266a7029d9de391055613b4f069caa10a90b')
+sha512sums=('f3472a35d26022e9bbb3fc83afd5206fe52e601c6be4e453329ab9aefc6672dd96e7236de1f7eb9058c60a8611a5a8cd0246c085f0f8e3e53c9300e498a0c434')
