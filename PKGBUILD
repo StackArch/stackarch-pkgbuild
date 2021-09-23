@@ -2,7 +2,7 @@
 
 _pyname=python-barbicanclient
 pkgname=$_pyname
-pkgver=5.1.0
+pkgver=5.2.0
 pkgrel=1
 pkgdesc="Client Library for OpenStack Barbican Key Management API"
 arch=('any')
@@ -37,9 +37,9 @@ makedepends=(
 	python-setuptools
 )
 source=("https://pypi.io/packages/source/${_pyname::1}/$_pyname/$_pyname-$pkgver.tar.gz")
-md5sums=('e13b389215c72ab0cfd57457b33c939c')
-sha256sums=('e6b6b7bfa7d773dc891de7873e5e5a336f7f9f8ac90a6a726e1f7674f8fe8af4')
-sha512sums=('b18af90725e2fcc3394e55fa901d950375b36db95df497f77360a8832f6dc20e787039fafe75ee8f8aa8ae8acc8c0f63db60822dee6820d9639e4acb9d3a719e')
+md5sums=('c8a18c81ce5369014e3638db6c4e1b43')
+sha256sums=('9e69572aa11700c41fc126b26de5a7f79d3f0638bd81a61676597cd0e7cee702')
+sha512sums=('de9d063bf5e79347d0457b8fa69ed0d307fb4cd2b7dff23f156eab16521b3048283b9a7fdb1f464efe04cc4fd28e2072fe965a3e097842d1704f36bb83e7e3a2')
 
 export PBR_VERSION=$pkgver
 
