@@ -1,0 +1,23 @@
+pkgbase = mod_wsgi
+	pkgdesc = Python WSGI adapter module for Apache
+	pkgver = 4.9.0
+	pkgrel = 1
+	url = http://www.modwsgi.org/
+	arch = x86_64
+	arch = i686
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = Apache
+	makedepends = apache
+	makedepends = python
+	depends = apache
+	depends = python
+	conflicts = mod_wsgi2
+	source = mod_wsgi-4.9.0.tar.gz::https://github.com/GrahamDumpleton/mod_wsgi/archive/refs/tags/4.9.0.tar.gz
+	md5sums = 3849425d78e716511388a5894cc00479
+	sha256sums = 0a6f380af854b85a3151e54a3c33b520c4a6e21a99bcad7ae5ddfbfe31a74b50
+	sha512sums = 9dc34d431171321094a9713444895d9754eff4e69ad1e86c8d3cd77bc1ca0a4c10b697e7f8cf14902d6bfaf205c8842e62fa944bb38f66f1c54fd36af95a09d6
+
+pkgname = mod_wsgi
