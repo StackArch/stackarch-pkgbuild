@@ -3,7 +3,7 @@
 _pyname=yappi
 pkgbase=python-$_pyname
 pkgname=(python{,2}-$_pyname)
-pkgver=1.3.2
+pkgver=1.3.3
 pkgrel=1
 pkgdesc="Yet Another Python Profiler"
 arch=(x86_64 i686 arm armv6h armv7h aarch64)
@@ -18,9 +18,9 @@ makedepends=(
 	python2-setuptools
 )
 source=(https://pypi.io/packages/source/${_pyname::1}/$_pyname/$_pyname-$pkgver.tar.gz)
-md5sums=('5ffe300828cdf046a1b0e0450f555d9d')
-sha256sums=('a51d3e6e5563cc74b5bb82ed6e7bd44a9c1a7eae3d97e4d52e9465edb3a8da8d')
-sha512sums=('66744d065ad910225b6c0f17eddbbde72b485081d5e66dc299d1bcce8217811ddd2b280c4a6976007af9a4848f18a0d0ea7fa684a46f71cb9df72c70ec1d8b45')
+md5sums=('48703b6b391fba7fbb98630744203744')
+sha256sums=('855890cd9a90d833dd2df632d648de8ccd0a4c3131f1edc8abd004db0625b5e8')
+sha512sums=('7c13ecb3e465f4308713f0de111ad53c1c033dc7762848322b15bc9dde815f9843bab31aaf0b1347002083eb54cd39014115f708af171d1d16b88c28c0017ad2')
 
 prepare(){
 	cp -a $_pyname-$pkgver{,-py2}
@@ -35,15 +35,14 @@ build(){
 	popd
 }
 
-## Test was broken
-#check(){
-#	pushd $_pyname-$pkgver
-#	python -m pytest
-#	popd
-#	pushd $_pyname-$pkgver-py2
-#	python2 -m pytest
-#	popd
-#}
+check(){
+	pushd $_pyname-$pkgver
+	PYTHONPATH=${PWD}/tests python -m pytest
+	popd
+	#pushd $_pyname-$pkgver-py2
+	#PYTHONPATH=${PWD}/tests python2 -m pytest
+	#popd
+}
 
 _package_python(){
 	depends=(
