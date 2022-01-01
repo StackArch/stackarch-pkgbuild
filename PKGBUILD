@@ -2,7 +2,7 @@
 
 _pyname=actdiag
 pkgname=${_pyname}
-pkgver=2.0.0
+pkgver=3.0.0
 pkgrel=1
 pkgdesc="actdiag generates activity-diagram image from text"
 arch=(any)
@@ -14,7 +14,7 @@ depends=(
 )
 makedepends=(python-distribute)
 source=(https://pypi.io/packages/source/${_pyname::1}/$_pyname/$_pyname-$pkgver.tar.gz)
-sha512sums=('e955b9b919e137f10ff128d5d8817b2da660b121937cab3386a866a0bff08218b6e777e302a9130616228af6c357c463ceeb12cb95b8734928001d8ad6a90250')
+sha512sums=('240a687fd0c9f8ee10e66fed9ce8ca3359f3336c1623a05b1394f1444e518c1c325922eb5cd2d6d1a867876ff820b2b1b6f5eb518a6af5d688bd8116b97c9dca')
 
 build(){
 	cd $_pyname-$pkgver
