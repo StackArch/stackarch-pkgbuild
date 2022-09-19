@@ -1,6 +1,6 @@
 pkgbase = python-yappi
 	pkgdesc = Yet Another Python Profiler
-	pkgver = 1.3.3
+	pkgver = 1.3.6
 	pkgrel = 1
 	url = https://github.com/sumerc/yappi
 	arch = x86_64
@@ -16,10 +16,10 @@ pkgbase = python-yappi
 	makedepends = python2
 	makedepends = python2-gevent
 	makedepends = python2-setuptools
-	source = https://pypi.io/packages/source/y/yappi/yappi-1.3.3.tar.gz
-	md5sums = 48703b6b391fba7fbb98630744203744
-	sha256sums = 855890cd9a90d833dd2df632d648de8ccd0a4c3131f1edc8abd004db0625b5e8
-	sha512sums = 7c13ecb3e465f4308713f0de111ad53c1c033dc7762848322b15bc9dde815f9843bab31aaf0b1347002083eb54cd39014115f708af171d1d16b88c28c0017ad2
+	source = https://pypi.io/packages/source/y/yappi/yappi-1.3.6.tar.gz
+	md5sums = a1f9ebfe6509e2be92e6e8b303f1a0fa
+	sha256sums = 0a73c608a2603570a020a32d4369ba744012bc5267f37e5bd8026fb491abba56
+	sha512sums = 24f4608672179be1f6189b4121b74ecc9badb4e24b6ccec19a8636d1ec4ce010deb2f8614da6a5e080fb18b375508d86714ed773ab79b947134f835ea37f64e3
 
 pkgname = python-yappi
 
