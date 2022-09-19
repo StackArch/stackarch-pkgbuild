@@ -4,8 +4,8 @@ _pyname=pyscss
 _pycname=pyScss
 pkgbase=python-$_pyname
 pkgname=(python{,2}-$_pyname)
-pkgver=1.3.7
-pkgrel=2
+pkgver=1.4.0
+pkgrel=1
 pkgdesc="pyScss, a Scss compiler for Python"
 arch=(x86_64 i686 arm armv6h armv7h aarch64)
 url="http://github.com/Kronuz/pyScss"
@@ -20,9 +20,9 @@ makedepends=(
 	python2-setuptools
 )
 source=(https://pypi.io/packages/source/${_pycname::1}/$_pycname/$_pycname-$pkgver.tar.gz)
-md5sums=('c75fa4ea88d3c9df57a11679f337a939')
-sha256sums=('f1df571569021a23941a538eb154405dde80bed35dc1ea7c5f3e18e0144746bf')
-sha512sums=('8f369d91536394c780ae65b17f74852522f3ee60621c539e25327005baaf0cee9176088ea0558721017aa22b47c2c08c6d37e0b5b26ad3a91965aef4b8606d15')
+md5sums=('b28abfbc03d1d69a7fba60d6fce67cfc')
+sha256sums=('8f35521ffe36afa8b34c7d6f3195088a7057c185c2b8f15ee459ab19748669ff')
+sha512sums=('cd5f47e8e11e2a547741e274e7e8af6ce6df04707f9abeb246dc84f8bf003343df9b60be028cf6497caf17019482d9140d83c382638c4f34d5e6e38b47e6db2d')
 
 prepare(){
 	cp -a $_pycname-$pkgver{,-py2}
