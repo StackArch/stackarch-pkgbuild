@@ -2,7 +2,7 @@
 
 _pyname=flake8-logging-format
 pkgname=python-${_pyname}
-pkgver=0.6.0
+pkgver=0.7.5
 pkgrel=1
 pkgdesc="Flake8 extension to validate (lack of) logging format strings"
 arch=(any)
@@ -17,9 +17,9 @@ makedepends=(
 	python-setuptools
 )
 source=(https://pypi.io/packages/source/${_pyname::1}/$_pyname/$_pyname-$pkgver.tar.gz)
-md5sums=('7e082dd93304443d4d7db7a6489017ba')
-sha256sums=('ca5f2b7fc31c3474a0aa77d227e022890f641a025f0ba664418797d979a779f8')
-sha512sums=('d93c1acbfde9945933228d3849a950a8a28b213632698e257c55c0d76d988f7de0106a9e7c92bb1af7c66444aab4fad22d4dad8e56537be076505eff283b9507')
+md5sums=('6d92ade4a851e3de7d52636fb24dca25')
+sha256sums=('54f7e349c934ce5c594f251885bc2240e99f6b48752a672a8fc7e3d1388352bb')
+sha512sums=('4c792dc66cd0115086d21a2eb190879d798365fabdffab396f113d31c55f654756d9838b6d5ffc42ae412c3370350241b0a99a942e9db81cb54ab05020bdabca')
 
 build(){
 	cd $_pyname-$pkgver
