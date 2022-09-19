@@ -6,7 +6,7 @@
 _pyname=ncclient
 pkgbase=python-$_pyname
 pkgname=(python{,2}-$_pyname)
-pkgver=0.6.12
+pkgver=0.6.13
 pkgrel=1
 pkgdesc="Python library for NETCONF clients"
 arch=(any)
@@ -23,13 +23,12 @@ makedepends=(
 	python2-six
 	python2-lxml
 	python2-paramiko
-	python2-selectors2
 	python2-setuptools
 )
 source=(https://pypi.io/packages/source/${_pyname::1}/$_pyname/$_pyname-$pkgver.tar.gz)
-md5sums=('9986cd583cc8173a7e0f50d4439a684e')
-sha256sums=('37c8a9f9a44f0346144119ab17ae6559e44b5a991f4c34ea3765c678079e4beb')
-sha512sums=('df7923684228c400de81b089d5873a442026434557c239056af9f8d9af06ed1e9763a539cefef4a056d342537cb4a5f27b99be98eb5645ac36f7da217185289a')
+md5sums=('b269c9e1db60cb3a2998f8e31434a1bb')
+sha256sums=('f9f8cea8bcbe057e1b948b9cd1b241eafb8a3f73c4981fbdfa1cc6ed69c0a7b3')
+sha512sums=('46f2bed7b578170d31b5574477f1d946a3768b9b1487e6b3541c3a4c763f65903c6115af590b38af1e8e352c82f11791b79984daf9ec28265fbdc946aa660ad1')
 
 prepare(){
 	cp -a $_pyname-$pkgver{,-py2}
@@ -65,7 +64,6 @@ _package_python2(){
 		python2-six
 		python2-lxml
 		python2-paramiko
-		python2-selectors2
 	)
 	cd "$_pyname-$pkgver-py2"
 	python2 setup.py install --root "$pkgdir" --optimize=1
