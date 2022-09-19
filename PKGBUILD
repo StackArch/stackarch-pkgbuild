@@ -2,7 +2,7 @@
 
 _pyname=reno
 pkgname=python-$_pyname
-pkgver=3.4.0
+pkgver=3.5.0
 pkgrel=1
 pkgdesc="OpenStack RElease NOtes manager"
 arch=(any)
@@ -42,4 +42,4 @@ package(){
 	python setup.py install --root="$pkgdir" --optimize=1
 	install -Dm644 LICENSE "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
 }
-sha256sums=('5e77ce1707c7e3e1b0e9e72abe2d32c59af44df00a588601e2e362bad1b0fb41')
+sha256sums=('822f433c7b48c5a4bbd248d4af418eae8856043c2dae777d392cb4c974cbb2e2')
